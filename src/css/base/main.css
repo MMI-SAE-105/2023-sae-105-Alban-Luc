@@ -13,8 +13,28 @@
 
 .soustitre{
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .tarif{
     padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tarifli{
+    padding-bottom: 15px;
+}
+
+.titreartiste{
+    padding-top: 63px;
+    padding-bottom: 63px;
+    padding-left: 15px;
+}
+
+.artistes{
+    text-align: center;
+}
+
+.portrait{
+    padding-bottom: 37px;
 }
