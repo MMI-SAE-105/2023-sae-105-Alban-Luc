@@ -1,120 +1,17 @@
 <!DOCTYPE html>
-<html lang="fr" x-data="{ menuIsOpen: false }">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Première renaissance</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <script src="//unpkg.com/alpinejs" defer></script>
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="index.html">
-        <img src="public/img/icone/logo.svg" alt="logo">
-        </a>
-        <div class="drapeau">
-            <img src="public/img/icone/drapeau.svg" alt="drapeau">
-        </div>
-
-        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn"><img src="/public/img/icone/menu.svg" alt="menu"></button>
-        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
-
-            <div class="fermer"> 
-                <img src="/public/img/icone/Fermer.svg" alt="logo fermer" @click="menuIsOpen = ! menuIsOpen" >
-            </div>
-           
-           
-            <ul class="menuburger">
-               <li class="list"><a class="link" href="Filippo.html"><h2>Filippo Brunelleschi</h2></a></li>
-               <li class="list"><a class="link" href="Lorenzo.html"><h2>Lorenzo Ghiberti</h2></a></li>
-               <li class="list"><a class="link" href="Donatello.html"><h2>Donatello</h2></a></li>
-               <li class="list"><a class="link" href="Sassetta.html"><h2>Sassetta</h2></a></li>
-            </ul> <div class="vector"></div>
-            <ul class="menuburger2">
-               <li class="list"><a class="link" href="frise.html"><h2>Frise</h2></a></li>
-               <li class="list"><a class="link" href="contact.html"><h2>Contact</h2></a></li>
-               <li class="list"><a class="link" href="Apropos.html"><h2>À propos</h2></a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section class="titre">
-            <h1>Première Renaissance</h1>
-            <h2>Venez découvrir l’Italie des années 1420-1500 grace notre exposition “Première Renaissance”</h2>
-        </section>
-
-        <h2 class="soustitre">Première Renaissance exposition</h2>
-        <h3 class="soustitre">Voici les informations concernant l’exposition</h3>
-        
-            <section class="info"><img src="/public/img/icone/calender.svg" alt="calender"> <p>Du 13 avril au 23 juin 2021</p></section>
-            <section class="info"><img src="/public/img/icone/position.svg" alt="position"> <p>Fondation Cartier, 261 Bd Raspail, 75014 Paris</p></section>
-            <section class="info"><img src="/public/img/icone/temps.svg" alt="temps"> <p>Tous les jours de 11h à 20h, sauf le lundi. Nocturne le mardi, jusqu'à 22h. La fermeture des salles débute à 19h45 (21h45 les mardis)</p></section>
-
-            <section class="tarif">
-                <h3>Les tarifs</h3>
-                <ul>
-                    <li class="tarifli">Plein tarif ⇒ 11€</li>
-                    <li class="tarifli">Tarif réduit ⇒ 7,50€</li>
-                    <li class="tarifli">Réduction 13 - 25 ans ⇒ 5€</li>
-                    <li class="tarifli">Fondation Cartier Pass ⇒ 18€ - 50€</li>
-                    <li class="tarifli">Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants ⇒ Gratuit</li>
-                </ul>
-                
-                <h4>lien vers la billetterie</h4>
-            </section>
-
-            <section class="carrousel">
-                <img src="/public/img/carrousel/carrousel1.webp" alt="carrousel">
-            </section>
-
-            <h2 class="titreartiste">Les artistes</h2>
-
-            <div class="artistes">
-
-                <section class="portrait">
-                    <a href="Filippo.html">
-                        <img src="/public/img/filippo.webp" alt="Filippo"></a>
-                        <p>Filippo Brunelleschi</p>
-                        <h4>1377 - 1446</h4>
-                    
-                </section>
-
-                <section class="portrait">
-                    <a href="Lorenzo.html">
-                        <img src="/public/img/Lorenzo_Ghiberti.webp" alt="Lorenzo"></a>
-                        <p>Lorenzo Ghiberti</p>
-                        <h4>1378 - 14556</h4>
-                    
-                </section>
-
-                <section class="portrait">
-                    <a href="Donatello.html">
-                        <img src="/public/img/Donatello.webp" alt="Donatello"></a>
-                        <p>Donatello</p>
-                        <h4>1386 - 1466</h4>
-                    
-                </section>
-
-                <section class="portrait">
-                    <a href="Sassetta.html">
-                        <img src="/public/img/sassetta.webp" alt="Sassetta"></a>
-                        <p>Sassetta</p>
-                        <h4>1392 - 1450</h4>
-                    
-                </section>
-
-            </div>
-    </main>
-
-    <footer>
-        <img src="/public/img/icone/logo.svg" alt="logo">
-        <p>Première Renaissance</p>
-        <p>Billetterie</p>
-        <p>À propos</p>
-        <p>Contact</p>
-        <h4 class="footer">@Alban LUC</h4>
-    </footer>
+    <nav>
+        <ul>
+            <li><a href="/FR/index.html">Accueil en français</a></li>
+            <li><a href="/EN/index.html">Home in english</a></li>
+        </ul>
+    </nav>
 </body>
 </html>

@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="src/css/style.css">
+    <title>Première renaissance</title>
+    <link rel="stylesheet" href="/src/css/style.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
     <header>
         <a href="index.html">
-        <img src="public/img/icone/logo.svg" alt="logo">
+        <img src="/public/img/icone/logo.svg" alt="logo">
         </a>
         <div class="drapeau">
-            <img src="public/img/icone/drapeau.svg" alt="drapeau">
+            <img src="/public/img/icone/drapeau.svg" alt="drapeau">
         </div>
 
         <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn"><img src="/public/img/icone/menu.svg" alt="menu"></button>
@@ -38,19 +38,44 @@
             </ul>
         </nav>
     </header>
+<main>
+    <h2 class="frise">Frise Chronologique des artistes</h2>
 
-    <main>
-        <h2 class="contact">Nous contacter</h2>
-        <p class="contact">Si vous souhaiter plus de renseigement a propos de notre exposition, veuiller nous contacter via le formulaire ci-dessous</p>
-        <form>      
-            <input name="nom" type="text" class="feedback-input" placeholder="Nom" />   
-            <input name="email" type="text" class="feedback-input" placeholder="Email" />
-            <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
-            <input type="submit" value="ENVOYER"/>
-          </form>
-    </main>
+    <div class="container">
+    
+       <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h4>1377</h4>
+             <img class="image" src="/public/img/frise/filippo_frise.webp" alt="Filippo">
+            </div>
+       </div>
+    
+       <div class="timeline-block timeline-block-left">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h4>1378</h4>
+             <img class="image" src="/public/img/frise/Lorenz_Ghiberti_frise.webp" alt="Lorenzo">
+            </div>
+       </div>
+    
+       <div class="timeline-block timeline-block-right">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h4>1386</h4>
+        <img class="image" src="/public/img/frise/Donatello-frise.webp" alt="Donatello">
+            </div>
+       </div>
+    
+       <div class="timeline-block timeline-block-left">
+          <div class="marker"></div>
+          <div class="timeline-content">
+             <h4>1392</h4>
+        <img class="image" src="/public/img/frise/sassetta.webp" alt="Sassetta">
+            </div>
+       </div>
 
-    <footer>
+       <footer>
         <img src="/public/img/icone/logo.svg" alt="logo">
         <p>Première Renaissance</p>
         <p>Billetterie</p>
@@ -58,5 +83,6 @@
         <p>Contact</p>
         <h4>@Alban LUC</h4>
     </footer>
-</body>
-</html>
+
+</div>
+</main>
