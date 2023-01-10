@@ -55,6 +55,15 @@
     padding-left: 15px;
 }
 
-.test{
+.block{
     display: block;
+}
+
+.Oeuvre{
+    margin-left: 10px;
+}
+
+.imgoeuvre{
+    display: flex;
+    text-align: center;
 }
