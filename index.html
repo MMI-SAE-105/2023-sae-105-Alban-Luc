@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{ menuIsOpen: false }">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Première renaissance</title>
     <link rel="stylesheet" href="src/css/style.css">
-    <script defer src="https://unpkg.com/alpinejs"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 <body>
     <header>
@@ -16,25 +16,24 @@
 
         <img src="public/img/icone/drapeau.svg" alt="drapeau">
 
-        <label for="open" class="open-btn"><img src="/public/img/icone/menu.svg" alt="MenuBurger"><i class="fas fa-bars"></i></label>
-        <div class="side-menu-wrapper">
-            <input type="checkbox" id="open">
+        <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="/public/img/icone/menu.svg" alt="menu"></button>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
 
-            <div class="menu">
-              <label for="open" class="close">&times;</label>
-              <ul class="menu__list">
-                <li class="menu__item"><a class="menu__link" href=""><h2>Filippo Brunelleschi</h2></a></li>
-                    <li class="menu__item"><a class="menu__link" href=""><h2>Lorenzo Ghiberti</h2></a></li>
-                    <li class="menu__item"><a class="menu__link" href=""><h2>Donatello</h2></a></li>
-                    <li class="menu__item"><a class="menu__link" href=""><h2>Sassetta</h2></a></li>
-                </ul>
-                <ul>
-                    <li class="menu__item"><a class="menu__link" href="frise.html"><h2>Frise</h2></a></li>
-                    <li class="menu__item"><a class="menu__link" href="contact.html"><h2>Contact</h2></a></li>
-                    <li class="menu__item"><a class="menu__link" href=""><h2>À propos</h2></a></li>
-                  </ul>
+            <div class="fermer"> 
+                <img src="/public/img/icone/Fermer.svg" alt="logo fermer" @click="menuIsOpen = ! menuIsOpen" >
             </div>
-        </div>
+           
+           
+            <ul class="menuburger">
+                <li class="list">Filippo Brunelleschi</li>
+                <li class="list">Lorenzo Ghiberti</li>
+                <li class="list">Donatello</li>
+                <li class="list">Sassetta</li>
+                <li class="list">Frise</li>
+                <li class="list">Contact</li>
+                <li class="list">À propos</li>
+            </ul>
+        </nav>
     </header>
 
     <main>
