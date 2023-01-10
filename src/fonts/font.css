@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "ElMessiri";
+    src: url("ElMessiri-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RobotoThin";
+    src: url("Roboto-Thin.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: "ElMessiri";
+    font-size: 60px;
+}
+
+h2{
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+h3{
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+h4{
+    font-family: "RobotoThin";
+    font-size: 15px;
+}
+
+p{
+    font-family: "Roboto";
+    font-size: 14px;
+}

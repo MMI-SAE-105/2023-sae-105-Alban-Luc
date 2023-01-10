@@ -17,3 +17,6 @@
 
 /* normalize */
 @import url(/src/css/normalize.css);
+
+/* font */
+@import url(/src/fonts/font.css);
