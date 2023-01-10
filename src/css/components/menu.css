@@ -5,6 +5,7 @@
     width: 100%;
     height: 100%;
     background: #5A5A5A;
+    z-index: 1;
 }
 
 button {
