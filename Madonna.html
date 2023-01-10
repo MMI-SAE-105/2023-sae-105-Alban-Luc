@@ -13,30 +13,30 @@
         <a href="index.html">
         <img src="public/img/icone/logo.svg" alt="logo">
         </a>
-
-        <img src="public/img/icone/drapeau.svg" alt="drapeau">
-
-        <img src="public/img/icone/menu.svg" alt="logo_menu">
-
-        <label for="open" class="open-btn"><img src="/public/img/icone/menu.svg" alt="MenuBurger"><i class="fas fa-bars"></i></label>
-        <div class="side-menu-wrapper">
-            <input type="checkbox" id="open">
-
-            <div class="menu">
-              <label for="open" class="close">&times;</label>
-              <ul class="menu__list">
-                <li class="menu__item"><a class="menu__link" href="">Filippo Brunelleschi</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Lorenzo Ghiberti</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Donatello</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Sassetta</a></li>
-                </ul>
-                <ul>
-                    <li class="menu__item"><a class="menu__link" href="">Frise</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Contact</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">À propos</a></li>
-                  </ul>
-            </div>
+        <div class="drapeau">
+            <img src="public/img/icone/drapeau.svg" alt="drapeau">
         </div>
+
+        <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="/public/img/icone/menu.svg" alt="menu"></button>
+        <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
+
+            <div class="fermer"> 
+                <img src="/public/img/icone/Fermer.svg" alt="logo fermer" @click="menuIsOpen = ! menuIsOpen" >
+            </div>
+           
+           
+            <ul class="menuburger">
+                <a href="Filippo.html"><li class="list"><h2>Filippo Brunelleschi</h2></li></a>
+                <a href="Lorenzo.html"><li class="list"><h2>Lorenzo Ghiberti</h2></li></a>
+                <a href="Donatello.html"><li class="list"><h2>Donatello</h2></li></a>
+                <a href="Sassetta.html"><li class="list"><h2>Sassetta</h2></li></a>
+            </ul> <div class="vector"></div>
+            <ul class="menuburger2">
+                <a href="frise.html"><li class="list"><h2>Frise</h2></li></a>
+                <a href="contact.html"><li class="list"><h2>Contact</h2></li></a>
+                <a href="À propos.html"><li class="list"><h2>À propos</h2></li></a>
+            </ul>
+        </nav>
     </header>
 
     <main>
