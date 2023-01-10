@@ -1,3 +1,9 @@
 footer{
     background-color: black;
+    padding: 1%;
+    color: white;
+}
+
+.footer{
+    color: rgb(150, 150, 150);
 }
