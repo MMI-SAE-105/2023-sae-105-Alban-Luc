@@ -1,0 +1,20 @@
+.titre{
+    background-color: #B50101 ;
+    color: white;
+    padding: 15px;
+}
+
+.info{
+    display: flex;
+    text-align: center;
+    padding-bottom: 44px;
+    padding-left: 15px;
+}
+
+.soustitre{
+    padding-left: 15px;
+}
+
+.tarif{
+    padding-left: 15px;
+}
