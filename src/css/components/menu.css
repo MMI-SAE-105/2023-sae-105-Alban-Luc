@@ -32,7 +32,6 @@ button {
 }
 
 .menuburger{
-    text-decoration: none;
     padding-top: 50px;
 }
 
@@ -49,6 +48,7 @@ button {
     margin-bottom: 35px;
 }
 
-a{
+.link{
     text-decoration: none;
+    color: white;
 }
