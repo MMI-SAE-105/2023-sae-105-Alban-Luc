@@ -55,12 +55,6 @@
     color: rgb(0, 0, 0)
  }
  
- .timeline-content h3 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 25px;
-    font-weight: 500
- }
  
  .timeline-content span {
     font-size: 15px;
@@ -98,4 +92,8 @@
     color: black;
     padding-left: 15px;
     padding-right: 15px;
+ }
+
+ .image{
+   height: 80%;
  }
