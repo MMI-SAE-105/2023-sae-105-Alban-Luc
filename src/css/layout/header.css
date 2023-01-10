@@ -1,4 +1,5 @@
 header {
     background-color: #B50101;
     display: flex;
+    justify-content: space-between;
 }
