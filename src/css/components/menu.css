@@ -1,0 +1,47 @@
+
+  input#open {
+    display: none;
+  }
+  
+  input:checked + .menu {
+    width: 100%;
+  }
+  
+  .menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #5A5A5A;
+    overflow-x: hidden;
+    transition: all 0.4s;
+    padding-top: 60px;
+  }
+  
+  .menu a {
+    padding: 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    padding-left: 15px;
+  }
+  
+  
+  .close {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    font-size: 36px;
+    margin-right: 50px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  ul{
+    list-style-type:none;
+  }
+  
+  
