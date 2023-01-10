@@ -13,8 +13,9 @@
         <a href="index.html">
         <img src="public/img/icone/logo.svg" alt="logo">
         </a>
-
-        <img src="public/img/icone/drapeau.svg" alt="drapeau">
+        <div class="drapeau">
+            <img src="public/img/icone/drapeau.svg" alt="drapeau">
+        </div>
 
         <button aria-controls="mainNav"@click="menuIsOpen = ! menuIsOpen"class="header_menuBtn"><img src="/public/img/icone/menu.svg" alt="menu"></button>
         <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">

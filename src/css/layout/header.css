@@ -2,4 +2,10 @@ header {
     background-color: #B50101;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.drapeau{
+    margin-left: 40%;
+    margin-top: 23px;
 }
