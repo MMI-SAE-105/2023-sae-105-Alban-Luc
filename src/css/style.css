@@ -1,2 +1,19 @@
+/* base */
+@import url(/src/css/base/main.css);
+@import url(/src/css/base/media.css);
+
+/* components */
 @import url(/src/css/components/menu.css);
+
+/* layout */
+@import url(/src/css/layout/footer.css);
 @import url(/src/css/layout/header.css);
+
+/* contact */
+@import url(/src/css/contact.css);
+
+/* frise */
+@import url(/src/css/frise.css);
+
+/* normalize */
+@import url(/src/css/normalize.css);
