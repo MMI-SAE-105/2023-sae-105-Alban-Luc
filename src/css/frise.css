@@ -1,28 +1,5 @@
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    outline: none;
-    z-index: 0;
- }
- 
-
- h1 {
-    text-align: center;
-    font-weight: 300;
-    color: rgb(0, 0, 0)
- }
- 
- h1 span {
-    font-weight: 600;
- }
- 
  .container {
-    width: 80%;
-    padding: 50px 0;
-    margin: 50px auto;
     position: relative;
-    overflow: hidden;
  }
  
  .container:before {
@@ -30,11 +7,11 @@
     position: absolute;
     top: 0;
     left: 50%;
-    margin-left: -1px;
+    margin-left: 19px;
     width: 2px;
-    height: 100%;
-    background: #000000;
-    z-index: 1
+    height: 70%;
+    background: #B50101;
+
  }
  
  .timeline-block {
@@ -57,7 +34,6 @@
  }
  
  .timeline-block-left {
-    float: left;
     direction: rtl
  }
  
@@ -65,10 +41,12 @@
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    border: 2px solid #777777;
-    background: #000000;
+    border: 2px solid #5A5A5A;
+    background: #5A5A5A;
     margin-top: 10px;
+    margin-left: 20px;
     z-index: 9999
+    
  }
  
  .timeline-content {
@@ -114,4 +92,10 @@
        float: none;
        direction: ltr;
     }
+ }
+ 
+ .frise{
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
  }
