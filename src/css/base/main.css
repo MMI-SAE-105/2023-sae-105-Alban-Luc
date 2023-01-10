@@ -42,3 +42,19 @@
 .carrousel{
     text-align: center;
 }
+
+.Biographie{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.filarticle{
+    display: flex;
+    text-align: center;
+    padding-bottom: 44px;
+    padding-left: 15px;
+}
+
+.test{
+    display: block;
+}
