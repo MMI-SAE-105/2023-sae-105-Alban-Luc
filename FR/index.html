@@ -67,9 +67,30 @@
                 <h4>lien vers la billetterie</h4>
             </section>
 
-            <section class="carrousel">
-                <img src="/public/img/carrousel/carrousel1.webp" alt="carrousel">
-            </section>
+            <div class="carrousel" x-data="{}">
+                <button class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"></button><button class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+                    <div class="carrousel_parent-ecrans" x-ref="parent">
+                    <div id="ecran-1" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/carrousel/carrousel1.webp" alt="carrousel 1">
+                        </figure>
+                    </div>
+                    <div id="ecran-2" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/carrousel/carrousel2.webp" alt="carrousel 2">
+                        </figure>
+                    </div>
+                    <div id="ecran-3" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/carrousel/carrousel3.webp" alt="carrousel 3">
+                        </figure>
+                    </div>
+                    <div id="ecran-4" class="carrousel_ecran">
+                        <figure>
+                            <img src="/public/img/carrousel/arrousel4.webp" alt="carrousel 4">
+                        </figure>
+                    </div>
+                </div>
 
             <h2 class="titreartiste">Les artistes</h2>
 

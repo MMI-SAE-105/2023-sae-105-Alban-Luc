@@ -5,6 +5,7 @@
 /* components */
 @import url(/src/css/components/menu.css);
 @import url(/src/css/components/accordeon.css);
+@import url(/src/css/components/carrousel.css);
 
 /* layout */
 @import url(/src/css/layout/footer.css);
