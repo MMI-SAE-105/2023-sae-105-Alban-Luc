@@ -88,3 +88,28 @@
 h5{
     padding-left: 30px;
 }
+
+.test{
+    border:2px solid #B50101;
+    margin: 20px;
+    padding-left: 160px;
+}
+
+.test2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titre404{
+    color: black;
+    text-align: center;
+}
+
+.error{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.recherche{
+    text-align: center;
+}
