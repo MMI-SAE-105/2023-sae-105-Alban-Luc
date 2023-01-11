@@ -4,6 +4,7 @@
 
 /* components */
 @import url(/src/css/components/menu.css);
+@import url(/src/css/components/accordeon.css);
 
 /* layout */
 @import url(/src/css/layout/footer.css);
