@@ -45,6 +45,12 @@
         <img class="imgapropos" src="/public/img/about.webp" alt="about">
     </main>
 
+    <div class="accordeon">
+        <section x-data="{open:true}">
+          <button @click="open = !open">Qui sommes-nous ?</button>
+          <p x-show="open==true">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto nam deserunt ut eos laudantium neque iste dignissimos eum, modi quia pariatur optio consectetur facilis, quas hic. Tempore reprehenderit cupiditate et.</p>
+        </section>
+
  <footer>
         <img src="/public/img/icone/logo.svg" alt="logo">
         <p>Première Renaissance</p>
