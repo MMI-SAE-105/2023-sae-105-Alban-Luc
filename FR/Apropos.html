@@ -48,8 +48,17 @@
     <div class="accordeon">
         <section x-data="{open:true}">
           <button @click="open = !open">Qui sommes-nous ?</button>
-          <p x-show="open==true">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto nam deserunt ut eos laudantium neque iste dignissimos eum, modi quia pariatur optio consectetur facilis, quas hic. Tempore reprehenderit cupiditate et.</p>
+          <p x-show="open==true">Nous sommes une exposition temporaire basée sur Paris</p>
         </section>
+        <section x-data="{open:true}">
+            <button @click="open = !open">Qu-est ce que "Première renaissance" ?</button>
+            <p x-show="open">Nous ouvrons pour la première fois une exposition temporaire sur la “Première Renaissance”, venez faire un bond dans le temps pour atterrir dans l’Italie des années 1420 - 1500.</p>
+          </section>
+          <section x-data="{open:true}">
+            <button @click="open = !open">Combien de temps dure la visite ?</button>
+            <p x-show="open">Environ 2h30 des visites dans laquelle plus de 200 oeuvres et artistes seront exposés afin d’accroitre vos connaicssances.</p>
+          </section>
+        </div>
 
  <footer>
         <img src="/public/img/icone/logo.svg" alt="logo">
