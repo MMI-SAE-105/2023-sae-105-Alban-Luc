@@ -31,7 +31,6 @@
    display: -moz-box;
    display: flex;
    -webkit-box-pack: justify;
-   -webkit-justify-content: space-between;
    -moz-box-pack: justify;
    clear: both;
 }
