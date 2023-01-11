@@ -113,3 +113,27 @@ h5{
 .recherche{
     text-align: center;
 }
+
+.redirect{
+    list-style-type: none;
+}
+
+.redtext{
+    text-decoration: none;
+    color: #B50101;
+    font-size: 20px;
+    border: 2px solid #B50101;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.redlist{
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.redtitre{
+    font-size: 50px;
+}

@@ -5,12 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
+    <header>
+        <img src="/public/img/icone/logo.svg" alt="logo">
+        <h1 class="redtitre">Première Renaissance</h1>
+    </header>
     <nav>
-        <ul>
-            <li><a href="/FR/index.html"onclick="document.cookie='nf_lang=fr; path=/'">Accueil en français</a></li>
-            <li><a href="/EN/index.html"onclick="document.cookie='nf_lang=en; path=/'">Home in english</a></li>
+        <ul class="redirect">
+            <li class="redlist"><a class="redtext" href="/FR/index.html"onclick="document.cookie='nf_lang=fr; path=/'">⇒ Accueil en français</a></li>
+            <li class="redlist"><a class="redtext" href="/EN/index.html"onclick="document.cookie='nf_lang=en; path=/'">⇒ Home in english</a></li>
         </ul>
     </nav>
 </body>
