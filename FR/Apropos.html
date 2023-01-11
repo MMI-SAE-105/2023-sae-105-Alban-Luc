@@ -40,25 +40,28 @@
     </header>
     <main>
         <h2 class="apropos">À propos de nous</h2>
-        <p class="apropos">Nous ouvrons pour la première fois une exposition temporaire sur la “Première Renaissance”, venez faire un bond dans le temps pour atterrir dans l’Italie des années 1420 - 1500.</p>
-        <p class="apropos">Environ 2h30 des visites dans laquelle plus de 200 oeuvres et artistes seront exposés afin d’accroitre vos connaicssances.</p>
+        <h3 class="apropos">FAQ</h3>
+        <div class="accordeon">
+
+            <section class="borderac" x-data="{open:true}">
+              <button class="acbutton" @click="open = !open">Qui sommes-nous ?</button>
+              <p x-show="open==true">Nous sommes une exposition temporaire basée sur Paris</p>
+            </section>
+    
+            <section class="borderac" x-data="{open:true}">
+                <button class="acbutton" @click="open = !open">Qu-est ce que "Première renaissance" ?</button>
+                <p x-show="open">Nous ouvrons pour la première fois une exposition temporaire sur la “Première Renaissance”, venez faire un bond dans le temps pour atterrir dans l’Italie des années 1420 - 1500.</p>
+              </section>
+    
+              <section class="borderac" x-data="{open:true}">
+                <button class="acbutton" @click="open = !open">Combien de temps dure la visite ?</button>
+                <p x-show="open">Environ 2h30 des visites dans laquelle plus de 200 oeuvres et artistes seront exposés afin d’accroitre vos connaicssances.</p>
+              </section>
+              
+            </div>
+
         <img class="imgapropos" src="/public/img/about.webp" alt="about">
     </main>
-
-    <div class="accordeon">
-        <section x-data="{open:true}">
-          <button @click="open = !open">Qui sommes-nous ?</button>
-          <p x-show="open==true">Nous sommes une exposition temporaire basée sur Paris</p>
-        </section>
-        <section x-data="{open:true}">
-            <button @click="open = !open">Qu-est ce que "Première renaissance" ?</button>
-            <p x-show="open">Nous ouvrons pour la première fois une exposition temporaire sur la “Première Renaissance”, venez faire un bond dans le temps pour atterrir dans l’Italie des années 1420 - 1500.</p>
-          </section>
-          <section x-data="{open:true}">
-            <button @click="open = !open">Combien de temps dure la visite ?</button>
-            <p x-show="open">Environ 2h30 des visites dans laquelle plus de 200 oeuvres et artistes seront exposés afin d’accroitre vos connaicssances.</p>
-          </section>
-        </div>
 
  <footer>
         <img src="/public/img/icone/logo.svg" alt="logo">

@@ -80,3 +80,18 @@
     padding-top: 100px;
     padding-left: 2px;
 }
+
+.acbutton{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #B50101;
+    border-radius: 10px;
+}
+
+.accordeon{
+    padding-left: 15px;
+}
+
+.borderac{
+    padding-bottom: 10px;
+}
