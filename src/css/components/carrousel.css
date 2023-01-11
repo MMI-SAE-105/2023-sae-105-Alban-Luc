@@ -1,8 +1,3 @@
-/* en vrac :
-100% 100% 100% 0 auto border-box box-sizing 
-display height flex flex none margin 
-max-width width width
-*/ 
 * {
     box-sizing: border-box;
     }
@@ -13,15 +8,15 @@ max-width width width
     .carrousel_parent-ecrans {
       display: flex;
       width: 100%;
-      overflow-x: scroll; /* permet de scroller horizontalement */
-      scroll-behavior: smooth; /* animation de défilement */
-      scroll-snap-type: x mandatory; /* permet de scroller par blocs */
+      overflow-x: scroll; 
+      scroll-behavior: smooth; 
+      scroll-snap-type: x mandatory; 
     
     }
     .carrousel_ecran {
       width: 100%;
       flex: none;
-      scroll-snap-align: start; /* aligne les enfants par blocs */
+      scroll-snap-align: start;
 
     }
     .carrousel_ecran figure {
@@ -35,8 +30,8 @@ max-width width width
     
     .carrousel_btn {
       position: absolute;
-      top: 50%; /* centre verticalement */
-      transform: translateY(-50%); /* methode du point mort */
+      top: 50%;
+      transform: translateY(-50%);
       width: 2rem;
       height: 2rem;
       background: rgba(0,0,0,0.5);
