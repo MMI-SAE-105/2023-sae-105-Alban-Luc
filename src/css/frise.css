@@ -19,7 +19,7 @@
    width: 5px;
    height: 100%;
    background: #B50101;
-   z-index: 0
+   z-index: 0;
 }
 
 .frise {
@@ -42,8 +42,8 @@
    height: 5px;
    border: 2px solid #5A5A5A;
    background: #5A5A5A;
-   margin-top: 10px;
-   z-index: 9999
+   margin-top: 21px;
+   z-index: -1;
 }
 
 .positiontext {
