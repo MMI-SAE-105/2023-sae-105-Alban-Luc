@@ -2,13 +2,6 @@
    padding-left: 15px;
 }
 
-* {
-   -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-   box-sizing: border-box;
-   outline: none;
-}
-
 
 .chronologique {
    width: 80%;
@@ -22,12 +15,11 @@
    content: '';
    position: absolute;
    top: 0;
-   left: 50%;
    margin-left: -1px;
-   width: 2px;
+   width: 5px;
    height: 100%;
    background: #B50101;
-   z-index: 1
+   z-index: 0
 }
 
 .frise {
@@ -41,18 +33,13 @@
    -webkit-box-pack: justify;
    -webkit-justify-content: space-between;
    -moz-box-pack: justify;
-   justify-content: space-between;
    clear: both;
 }
 
-.frise-right {
-   float: right;
-}
 
 .rond {
    width: 16px;
-   height: 16px;
-   border-radius: 50%;
+   height: 5px;
    border: 2px solid #5A5A5A;
    background: #5A5A5A;
    margin-top: 10px;
@@ -67,7 +54,6 @@
 
 
 .positiontext span {
-   font-size: 15px;
    color: black;
 }
 
